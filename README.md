@@ -29,7 +29,7 @@ Global data grids are not included in this repository
     
     and place in Original_data/MITgcm/RUN33_6_NEWEDES/.
 
-Then run the following scripts in Collate_data
+**Then run the following scripts in Collate_data**
 
    Collate_MITgcm.m
    Calculate_fluxes_explicit.m
