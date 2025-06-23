@@ -31,19 +31,19 @@ Global data grids are not included in this repository
 
 **Then run the following scripts in Collate_data**
 
-   Collate_MITgcm.m
+ Collate_MITgcm.m
  Calculate_fluxes_explicit.m
  Collate_Horstmann.m
  Collate_WOA.m
 
 **And then run the following in Plot_Figures**
 
-   Figure_1.m
-   Figure_2.m
-   Figure_3.m
-   Figure_4.m
-   Figure_5.m
-   Figure_6.m
-   Figure_7.m
-   Figure_8.m
-   Figure_B1.m
+    Figure_1.m
+    Figure_2.m
+    Figure_3.m
+    Figure_4.m
+    Figure_5.m
+    Figure_6.m
+    Figure_7.m
+    Figure_8.m
+    Figure_B1.m
