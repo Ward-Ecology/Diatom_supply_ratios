@@ -2,7 +2,7 @@
 
 A copy of the repository including the global data grids has been archived at https://zenodo.org/records/15728101
 
-Source data are stored in **Original_data**.
+Source data are stored in **Original_data**
 
 These data can be processed by running the scripts in **Collate_data**
 
