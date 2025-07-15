@@ -1,6 +1,6 @@
 **Global data grids are not included in this repository**
 
-A copy of the repository including the global data grids has been archived at https://zenodo.org/records/15736872
+A copy of the repository including the global data grids has been archived at https://zenodo.org/records/15736871
 
 Source data are stored in **Original_data**
 
