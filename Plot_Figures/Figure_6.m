@@ -30,11 +30,12 @@ f6.Position = [74 748 1179 522];
 clf
 
 % colormap % https://coolors.co/palettes/popular/5%20colors
-clrs = hex2rgb({'#3d405b',... prov i
-                '#81b29a',... prov ii
-                '#f2cc8f',... prov iii
-                '#e07a5f',... prov iv
-                });
+clrs = [ 61  64  91 ;...  % prov i   ('#3d405b')
+        129 178 154 ;...  % prov ii  ('#81b29a')
+        242 204 143 ;...  % prov iii ('#f2cc8f')
+        224 122  95];     % prov iv   ('#e07a5f')
+clrs=clrs./255;
+
 % https://coolors.co/palette/f4f1de-e07a5f-3d405b-81b29a-f2cc8f
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
