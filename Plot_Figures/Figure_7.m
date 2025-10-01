@@ -62,6 +62,9 @@ sh.CData = rgb;
 
 contourm(Lat,Lon,Provinces',1.5:3.5,'k','LineW',2)
 hold on
+
+Browning_Incubations
+
 gamma = EcosystemData.gamma.Annual(:,:,1);
 gamma(gamma==0)=NaN;
 contourm(Lat,Lon,gamma',[0.75 0.75],'w--','LineW',2)

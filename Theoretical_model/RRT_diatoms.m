@@ -17,6 +17,8 @@ parameters(2).kN  = 1.00;       % N  half-saturation constant - diatoms
 parameters(2).kS  = 5.00;       % Si half-saturation constant - diatoms
 parameters(2).kF  = 1e-3;       % Fe half-saturation constant - diatoms
 
+parameters(2).m = 0.075;
+
 % simulation length (days)
 tspanmax = 500;
 
@@ -259,4 +261,6 @@ end
 uistack(ph1,"top") % Bring line to top
 uistack(ph2,"top") % Bring points to top
 uistack(th,"top")  % Bring text to top
+
+
 

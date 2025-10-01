@@ -57,7 +57,7 @@ for i=1:3
     hold on
     scatter(phi_explicit{i},phi_proxy{i},5,'k','filled', ...
                                         'MarkerFaceAlpha', 0.05, ...  % 30% opaque face
-                                        'MarkerEdgeAlpha', 0.05)
+                                        'MarkerEdgeAlpha', 0.05);
     set(gca,'XScale','Log','YScale','Log')
     box on
     axis([1e-3 1e3 1e-3 1e3])

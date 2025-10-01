@@ -91,7 +91,7 @@ for i=1:5
     ch.Children(i).Color = [1 1 1].*(i-1)/5 ;
 end
 
-lh=legend(ch.Children,'100 mm C m^{-2}','80','60','40','20');
+lh=legend(ch.Children,'100 mmol C m^{-2}','80','60','40','20');
 legend('boxoff')
 
 
