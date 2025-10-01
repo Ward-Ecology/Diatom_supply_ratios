@@ -9,9 +9,9 @@ parameters(2).npopn = 1;        % Set number of diatom phytoplankton populations
 RRT_diatom_parameters           % Load default model parameters for diatom and non-diatom species
 
 % non-default parameters (other parameters set in (RRT_diatom_parameters))
-parameters(1).kN  = 1.00;       % N  half-saturation constant - non-diatoms
-parameters(1).kS  = 0.00;       % Si half-saturation constant - non-diatoms (0 = not limiting)
-parameters(1).kF  = 1e-3;       % Fe half-saturation constant - non-diatoms
+parameters(1).kN  = [0.10 1.00];       % N  half-saturation constant - non-diatoms
+parameters(1).kS  = [0.00 0.00];       % Si half-saturation constant - non-diatoms (0 = not limiting)
+parameters(1).kF  = [1e-4 1e-3];       % Fe half-saturation constant - non-diatoms
 parameters(2).S2N = 3.00;       % Si:N ratio - diatoms
 parameters(2).kN  = 1.00;       % N  half-saturation constant - diatoms
 parameters(2).kS  = 5.00;       % Si half-saturation constant - diatoms

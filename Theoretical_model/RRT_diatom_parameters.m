@@ -9,32 +9,32 @@ parameters(2).pft ='D';
 % N.B. linspace uses second value if npopn = 1
 
 % plankton initial populations
-parameters(1).B0 = 1e-6; % initial populations of generic phytoplankton
-parameters(2).B0 = 1e-6; % initial populations of diatoms
+parameters(1).B0 = linspace(1.0e-6,1.0e-6,parameters(1).npopn); % initial populations of generic phytoplankton
+parameters(2).B0 = linspace(1.0e-6,1.0e-6,parameters(2).npopn); % initial populations of diatoms
 
 % maximum growth rates
-parameters(1).mumax = 1.0; % maximum growth rate of generic phytoplankton
-parameters(2).mumax = 2.0; % maximum growth rate of diatoms
+parameters(1).mumax = linspace(1.0,1.0,parameters(1).npopn); % maximum growth rate of generic phytoplankton
+parameters(2).mumax = linspace(2.0,2.0,parameters(2).npopn); % maximum growth rate of diatoms
 
 % N half-saturation concentrations
-parameters(1).kN = 1.0e+0; % N  half-saturation concentration of generic phytoplankton
-parameters(2).kN = 1.0e+0; % N  half-saturation concentration of diatoms
+parameters(1).kN = linspace(0.1,1.0,parameters(1).npopn); % N  half-saturation concentration of generic phytoplankton
+parameters(2).kN = linspace(1.0,1.0,parameters(2).npopn); % N  half-saturation concentration of diatoms
 
 % Si half-saturation concentrations
-parameters(1).kS = 0.0e+0; % Si half-saturation concentration of generic phytoplankton
-parameters(2).kS = 1.0e+0; % Si half-saturation concentration of diatoms
+parameters(1).kS = linspace(0.0,0.0,parameters(1).npopn); % Si half-saturation concentration of generic phytoplankton
+parameters(2).kS = linspace(1.0,1.0,parameters(2).npopn); % Si half-saturation concentration of diatoms
 
 % Fe half-saturation concentrations
-parameters(1).kF = 1.0e-3; % Fe  half-saturation concentration of generic phytoplankton
-parameters(2).kF = 1.0e-3; % Fe  half-saturation concentration of diatoms
+parameters(1).kF = linspace(1e-4,1e-3,parameters(1).npopn); % Fe  half-saturation concentration of generic phytoplankton
+parameters(2).kF = linspace(1e-3,1e-3,parameters(2).npopn); % Fe  half-saturation concentration of diatoms
 
 % Fe:N stoichiometries
-parameters(1).F2N = 1.0e-3; % Fe:N stoichiometries of generic phytoplankton
-parameters(2).F2N = 1.0e-3; % Fe:N stoichiometries of diatoms
+parameters(1).F2N = linspace(1e-3,1e-3,parameters(1).npopn); % Fe:N stoichiometries of generic phytoplankton
+parameters(2).F2N = linspace(1e-3,1e-3,parameters(2).npopn); % Fe:N stoichiometries of diatoms
 
 % Si:N stoichiometries
-parameters(1).S2N = 0.0e+0; % Si:N stoichiometries of generic phytoplankton
-parameters(2).S2N = 1.0e+0; % Si:N stoichiometries of diatoms
+parameters(1).S2N = linspace(0.0,0.0,parameters(1).npopn); % Si:N stoichiometries of generic phytoplankton
+parameters(2).S2N = linspace(1.0,1.0,parameters(2).npopn); % Si:N stoichiometries of diatoms
 
 
 % linear mortality rates
